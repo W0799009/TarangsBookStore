@@ -214,5 +214,11 @@ Completed part 2.1.2
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-
+2022-11-09 4:53PM
+Starting Part 2.1.3 Bootstrap
+Chossen the Solar Bootstrap.
+Replaced the bootstrap file by new bootstrap file of the Morph Theme.
+Part 2.1.3 completed successfully
+Run the project and checked the dropdown.
+Worked perfectly.
 
