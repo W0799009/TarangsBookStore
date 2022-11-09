@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarangsBookStore", "TarangsBookStore\TarangsBookStore.csproj", "{F1BF3FD3-0CAC-4BB5-BF84-B3FE5C7D55A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarangsBooks.DataAccess", "TarangsBooks.DataAccess\TarangsBooks.DataAccess.csproj", "{79CA22E3-04CA-4E47-8501-E5038D3BCF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarangsBooks.Models", "TarangsBooks.Models\TarangsBooks.Models.csproj", "{81A28E15-A60C-4BA8-B063-BB83C1260366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarangsBooks.Utility", "TarangsBooks.Utility\TarangsBooks.Utility.csproj", "{6E97DBA5-C21A-4C97-9A87-7F734E4B754A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{F1BF3FD3-0CAC-4BB5-BF84-B3FE5C7D55A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1BF3FD3-0CAC-4BB5-BF84-B3FE5C7D55A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1BF3FD3-0CAC-4BB5-BF84-B3FE5C7D55A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CA22E3-04CA-4E47-8501-E5038D3BCF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CA22E3-04CA-4E47-8501-E5038D3BCF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CA22E3-04CA-4E47-8501-E5038D3BCF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CA22E3-04CA-4E47-8501-E5038D3BCF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A28E15-A60C-4BA8-B063-BB83C1260366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A28E15-A60C-4BA8-B063-BB83C1260366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A28E15-A60C-4BA8-B063-BB83C1260366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A28E15-A60C-4BA8-B063-BB83C1260366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E97DBA5-C21A-4C97-9A87-7F734E4B754A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E97DBA5-C21A-4C97-9A87-7F734E4B754A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E97DBA5-C21A-4C97-9A87-7F734E4B754A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E97DBA5-C21A-4C97-9A87-7F734E4B754A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

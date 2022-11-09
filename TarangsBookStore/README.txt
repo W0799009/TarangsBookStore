@@ -222,3 +222,20 @@ Part 2.1.3 completed successfully
 Run the project and checked the dropdown.
 Worked perfectly.
 
+-------------------------------------------------------------------------------------------------------------------------
+
+2022-11-09 6:11PM
+Starting Part 2.1.4. Add project and Modify.
+Created Three Projects in Solution named as follows.
+TarangsBooks.DataAccess,
+TarangsBooks.Models,
+TarangsBooks.Utility.
+Copied Data folder and Pasted it into TarangsBooks.DataAccess
+Deleted old Data Folder.
+Installed Core.Relational and Core.SQLserver Packages version 3.1.28.
+Delete the Migration Folder from data Folder.
+Installed Identity.EntityFrameworkCore Package version 3.1.28.
+Modified namespace in ApplicationDbContext.cs 
+Deleted the Class1.cs file from all project.
+Build the TarangsBooks.DataAccess
+
