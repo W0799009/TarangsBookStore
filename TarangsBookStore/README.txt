@@ -238,4 +238,9 @@ Installed Identity.EntityFrameworkCore Package version 3.1.28.
 Modified namespace in ApplicationDbContext.cs 
 Deleted the Class1.cs file from all project.
 Build the TarangsBooks.DataAccess
+EndTime: 6:38PM
 
+------------------------------------------------------------------------------------------------------------------------
+
+2022-11-09 6:38PM
+Starting Changes in Models.
