@@ -7,8 +7,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using TarangsBookStore.Models;
 
-namespace TarangsBookStore.Controllers
+namespace TarangsBookStore.Area.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

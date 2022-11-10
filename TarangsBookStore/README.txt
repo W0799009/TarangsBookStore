@@ -244,3 +244,35 @@ EndTime: 6:38PM
 
 2022-11-09 6:38PM
 Starting Changes in Models.
+Added Project Reference to DataAccess and Models.
+Renamed the Models Folders to ViewModels.
+Changed the namespace in ErrorViewModele.
+Build the project Successfully.
+Modified the startup.cs file.
+Remove the using statement.
+solved the errors that were arised.
+Ending at: 10:59PM
+
+------------------------------------------------------------------------------------------------------------------------
+
+2022-11-09 10:59PM
+Starting Modification in Utitlity Project.
+Created new class in Utility project and changed the Property to public static.
+Added project reference to the main project.
+In DataAccess Added project reference to modeles and Utility.
+Added customer named Area in Areas. 
+Changed the route in startup.cs file.
+Moved the HomeController.cs file to customer>Controllers folder and deleted Models and Data folder from it.
+Updated homeController.cs file.
+Moved Home Folder into Vier Folder and modified HomeController Namespace.
+Runned the project and got the expected result without any error so I'm very happy.<:) <:)
+2022-11-09 11:45PM
+
+-------------------------------------------------------------------------------------------------------------------------
+
+2022-11-09 11:45PM
+
+Starting Changes in Views.
+Copied and pasted the _ViewImport and _ViewStart to Customer Area.
+Added the correct path in _ViewStart.cshtml.
+
