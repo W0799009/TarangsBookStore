@@ -266,7 +266,7 @@ Moved the HomeController.cs file to customer>Controllers folder and deleted Mode
 Updated homeController.cs file.
 Moved Home Folder into Vier Folder and modified HomeController Namespace.
 Runned the project and got the expected result without any error so I'm very happy.<:) <:)
-2022-11-09 11:45PM
+End Ponit: 2022-11-09 11:45PM
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -275,4 +275,12 @@ Runned the project and got the expected result without any error so I'm very hap
 Starting Changes in Views.
 Copied and pasted the _ViewImport and _ViewStart to Customer Area.
 Added the correct path in _ViewStart.cshtml.
+Runn the application and got the expected result fin ally . Love the Experience.
+Added the area named it 'Admin'.
+Added view files in the Admin folder 
+Deleted data and Model folders.
+Deleted the Controller Folder.
+Github update.
+Completed 2.1.4 successfully.
 
+End Time: 2022-11-09 12:28PM
