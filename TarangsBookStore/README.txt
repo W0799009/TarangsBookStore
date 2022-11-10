@@ -282,5 +282,7 @@ Deleted data and Model folders.
 Deleted the Controller Folder.
 Github update.
 Completed 2.1.4 successfully.
+I rummed the application.
+I got an error which I solved by checking my projects again step wise from the part which I changed lastly.
 
 End Time: 2022-11-09 12:28PM
