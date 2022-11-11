@@ -286,10 +286,55 @@ I rummed the application.
 I got an error which I solved by checking my projects again step wise from the part which I changed lastly.
 
 End Time: 2022-11-09 12:28PM
------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 Start Time: 2022-11-10 9:36 PM
 Yesterday getting problem opening other pages like Privacy so cleared that error by adding 'Customer' in _Layout.cshtml
 End Time: 2022-11-10 9:56 PM
 
------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+
+2022-11-11 04:13PM
+
+Clone the repository from GitHub
+Build the application ...
+Test the application ...
+All done ...
+
+Open and review the "appsettings.json" file
+Update the database name in 3rd line of page .. i.e. Database=TarangsBookStore .. remove prefix and postfix stirng from database name 
+
+Open NuGet package console
+Run the command "Add-Migration AddDefaultIdentityMigration" in Default Project : TarangsBookStore
+As it showing this error with this default project :
+Build started...
+Build succeeded.
+Your target project 'TarangsBookStore' doesn't match your migrations assembly 'TarangsBooks.DataAccess'. Either change your target project or change your migrations assembly.
+Change your migrations assembly by using DbContextOptionsBuilder. E.g. options.UseSqlServer(connection, b => b.MigrationsAssembly("TarangsBookStore")). By default, the migrations assembly is the assembly containing the DbContext.
+Change your target project to the migrations project by using the Package Manager Console's Default project drop-down list, or by executing "dotnet ef" from the directory containing the migrations project.
+
+Now change the Default project selection to : TranagsBookStore.DataAccess
+And run again above command in package manager console
+Output is :
+Build started...
+Build succeeded.
+To undo this action, use Remove-Migration.
+i.e Migration is done with this command in TarangsBookStore.DataAccess project
+The migration file is created with the name of "20221111212244_AddDefaultIdentityMigration.cs"
+
+Open and review this newly created migration file.
+Change the related ASP.NET identity of table's columns.
+
+After migration, now it's to update the database through package manager console 
+with the command : "Update-Database"
+Output is : 
+Build started...
+Build succeeded.
+Done.
+
+Open and review the updated database from the SQL Server Object Explorer
+Build the application ...
+Test the application ...
+All done ...
+
+Commit changes to the GitHub repository...
