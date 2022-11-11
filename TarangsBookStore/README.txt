@@ -338,3 +338,22 @@ Test the application ...
 All done ...
 
 Commit changes to the GitHub repository...
+
+Create new cs file in "TarangsBooks.Models" with the name of "Category.cs"
+Open and update this "Category.cs" file as per pptx
+
+Open "ApplicationDbContext.cs" file and add Category Database set and don't forget to include namespace
+
+Open NuGet package console
+Run the command "Add-Migration AddCategoryToDb" in Current Project selection : TarangsBooks.DataAccess
+Output is :
+Build started...
+Build succeeded.
+To undo this action, use Remove-Migration.
+
+After migration, now it's to update the database through package manager console 
+with the command : "Update-Database"
+Output is : 
+Build started...
+Build succeeded.
+Done.
