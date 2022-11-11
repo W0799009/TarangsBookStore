@@ -286,3 +286,7 @@ I rummed the application.
 I got an error which I solved by checking my projects again step wise from the part which I changed lastly.
 
 End Time: 2022-11-09 12:28PM
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Start Time: 2022-11-10 9:36 PM
+Yesterday getting problem opening other pages like Privacy so cleared that error by adding 'Customer' in _Layout.cshtml
