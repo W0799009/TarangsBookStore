@@ -290,3 +290,6 @@ End Time: 2022-11-09 12:28PM
 
 Start Time: 2022-11-10 9:36 PM
 Yesterday getting problem opening other pages like Privacy so cleared that error by adding 'Customer' in _Layout.cshtml
+End Time: 2022-11-10 9:56 PM
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
