@@ -300,6 +300,10 @@ Clone the repository from GitHub
 Build the application ...
 Test the application ...
 All done ...
+End time: 2022-11-11 04:17PM
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2022-11-11 04:18PM
 
 Open and review the "appsettings.json" file
 Update the database name in 3rd line of page .. i.e. Database=TarangsBookStore .. remove prefix and postfix stirng from database name 
@@ -312,6 +316,11 @@ Build succeeded.
 Your target project 'TarangsBookStore' doesn't match your migrations assembly 'TarangsBooks.DataAccess'. Either change your target project or change your migrations assembly.
 Change your migrations assembly by using DbContextOptionsBuilder. E.g. options.UseSqlServer(connection, b => b.MigrationsAssembly("TarangsBookStore")). By default, the migrations assembly is the assembly containing the DbContext.
 Change your target project to the migrations project by using the Package Manager Console's Default project drop-down list, or by executing "dotnet ef" from the directory containing the migrations project.
+End time: 04:30PM
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-11 04:13PM
 
 Now change the Default project selection to : TranagsBookStore.DataAccess
 And run again above command in package manager console
@@ -324,6 +333,11 @@ The migration file is created with the name of "20221111212244_AddDefaultIdentit
 
 Open and review this newly created migration file.
 Change the related ASP.NET identity of table's columns.
+End TIme:  05:15PM
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-11 05:27PM
 
 After migration, now it's to update the database through package manager console 
 with the command : "Update-Database"
@@ -338,6 +352,11 @@ Test the application ...
 All done ...
 
 Commit changes to the GitHub repository...
+End Time: 05:56PM
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-11 06:13PM
 
 Create new cs file in "TarangsBooks.Models" with the name of "Category.cs"
 Open and update this "Category.cs" file as per pptx
@@ -357,3 +376,41 @@ Output is :
 Build started...
 Build succeeded.
 Done.
+
+End Time: 06:59PM
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-12 01:26PM
+
+Starting Part 2.2.2 Build the project.
+
+Made Repository folder in data sccess project 
+Made another folder in Repositoty and named it IRepository.
+Created new Interface type file in IRepository folder. 
+Changed the using statements.
+added the curd operations.
+Methods to use for curd operations: GEt Item from Db, List of Items, Add object, remove obeject.
+Saved the changes.
+
+Made another class in repository folder and name it Repository.cs.
+added a using statements.
+ALso modified the class name and visibility.
+Using alt enter on error I replaced the colde with the interface.
+Replaced the give code in Assignment 2 folder with our Repository.cs file.
+replaced the 'andrews' name with tarang name space.
+Created new classes in IRepository and Repository and named it ICategoryRepository and CategoryRepository respectively.
+Modified the CategoryRepository.cs file.
+Got one error about the not useing the ICategoryRepository value.
+moving on, Changing the ICategoryRepository file.
+changed the namespace and class added.
+Using the alt and enter key selected the interface and added the code in CategoryRepository which also solved the error.
+Writing the code given in the ppt in CategoryRepository.cs file.
+I got an error in FirstOrDefault but then it get solved as i forget to write using statement of Linq in it.
+Bild the project with 4 succeed.
+Commit to git.
+End time: 4:40 PM
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-12 01:26PM
