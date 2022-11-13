@@ -437,7 +437,7 @@ Part 2.2.2 completd successfully.
 End Time: 9:00
 -----------------------------------------------------------------------------------------------------------------------------
 
-2022-11-13 12:06PM
+2022-11-13 12:06AM
 Starting Part 2.2.3 Category CRUD
 Created new controller called CategoryController.cs
 Updated that file as given in ppt.
@@ -446,3 +446,8 @@ Created new Index View in Category Folder.
 Saved and then run the application.
 Completd and checked the index.
 Commit to git.
+End Time: 12:55AM
+------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-13 12:06AM
+

@@ -4,6 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TarangsBooks.DataAccess.Repository.IRepository;
+using TarangsBooks.DataAccess.Repository;
+using TarangsBookStore.DataAccess;
+using TarangsBookStore.Areas;
+using TarangsBookStore.Models;
 
 namespace TarangsBookStore.Areas.Admin.Controllers
 {
