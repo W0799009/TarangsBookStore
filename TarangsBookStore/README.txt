@@ -474,4 +474,17 @@ Change the place of the save line in Upsert file.
 Run the application.
 It worked perfectely.
 End Time:3.41AM
-------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-13 12:03PM
+Starting API.
+Call the httpDelete in CategoryController.cs file.
+Added funtionality in Category.Js file by adding OnClick.
+Added the functionality of Delete in Category.js file.
+I was not abele to see the delet button as a button, It was just a logo so I tried several things and but not getting the expected result.
+Got the error,in the code of onclick, after that code the space was missing so it was not taking that as a button.
+Got the expected result as shown in the ppt.
+Part 2.2.3 completed successfully.
+wheheeeeeeeeeeeeee:) :) :)
+Commit to git.
+End Time: 1:51PM
