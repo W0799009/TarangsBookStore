@@ -435,3 +435,14 @@ Commit to git.
 Part 2.2.2 completd successfully.
 
 End Time: 9:00
+-----------------------------------------------------------------------------------------------------------------------------
+
+2022-11-13 12:06PM
+Starting Part 2.2.3 Category CRUD
+Created new controller called CategoryController.cs
+Updated that file as given in ppt.
+Created new folder in Views of Admin and named it Category.
+Created new Index View in Category Folder.
+Saved and then run the application.
+Completd and checked the index.
+Commit to git.
