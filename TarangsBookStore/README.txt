@@ -427,3 +427,11 @@ Change the code of block as showed in the slides.
 build the project with no errors.
 Commit to the git.
 
+Getting error when added the like code in the startup.cs file.
+Trying to solve the error.
+solved it.
+I forget to write public in IUnitOfWork file.
+Commit to git.
+Part 2.2.2 completd successfully.
+
+End Time: 9:00

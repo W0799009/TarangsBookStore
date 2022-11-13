@@ -1,3 +1,5 @@
+using TarangsBooks.DataAccess.Repository;
+using TarangsBooks.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -7,11 +9,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using TarangsBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-//using TarangsBookStore.Data;
 
 namespace TarangsBookStore
 {
@@ -33,6 +35,7 @@ namespace TarangsBookStore
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<DataAccess.Data.ApplicationDbContext>();
             services.AddControllersWithViews();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddRazorPages();
         }
 
