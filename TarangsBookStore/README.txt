@@ -23,6 +23,7 @@ Started Part 1.2 Debugging.
 observed diagnostic Tools while running the application.
 Completed Part 1.2
 
+
 28-10-2022 18:58
 Starting  Part 1.3 Bootstrap.
 first of all selected bootstrap file online , downloaded the file.
@@ -449,5 +450,28 @@ Commit to git.
 End Time: 12:55AM
 ------------------------------------------------------------------------------------------------------------------------------------
 
-2022-11-13 12:06AM
+2022-11-13 12:55AM
+Updated the Index.cshtml file.
+Created the Category.Js file and copied the posted code on Blackboard.
+Updated the index.cshtml file.
+Got an error while getting Categories how ever Solved it and commit to git
+Update the CategoryController by new code in ppt.
+Added view on UPSERT.
+Copied Code from Assignment 2 section for UPSERT and Save it .
+Created a partial view and nemed it _CreateAndBackToListButton.
+Update it with given code block in ppt
+Created another partial view and name it _EditAndBackToListButton
+Update it with given code block in ppt
+Modified the Upsert file.
+Adde the asp-action="Upsert" in Index.cshtml.
+Run the application .
 
+VAlidation working perfetly.
+updated the CategoryController.cs file
+solved the error on save function.
+Comment the CategoryRepository file _db.SaveChanges code.
+Change the place of the save line in Upsert file.
+Run the application.
+It worked perfectely.
+End Time:3.41AM
+------------------------------------------------------------------------------------------------------------------------------------

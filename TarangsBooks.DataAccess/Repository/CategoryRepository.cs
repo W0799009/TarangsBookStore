@@ -22,7 +22,7 @@ namespace TarangsBooks.DataAccess.Repository
             if(objFromDb != null) // Save changes if not null
             {
                 objFromDb.Name = category.Name;
-                _db.SaveChanges();
+                //_db.SaveChanges();
             }
         }
     }
