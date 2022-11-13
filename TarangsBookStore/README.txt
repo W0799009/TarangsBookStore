@@ -413,4 +413,17 @@ End time: 4:40 PM
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-2022-11-12 01:26PM
+2022-11-12 04:41PM
+Added a new interface in the IRepository named it ISP_Call.cs file.
+Using alt and enter added the nuget pagage manager of dapper.
+Added the code block and in the ISP_Call.cs file.
+Created new class named SP_Call and implemented appropriate using and ISP_Call interface.
+Added addition using of database connectivity.
+Changed the whole SP_Call.cs file.
+Added an interface type file in IRepository name it IUnitOfWork.
+Changed the Code ad save it.
+Added new class in the Repository folder and named it UnitOfWork.
+Change the code of block as showed in the slides.
+build the project with no errors.
+Commit to the git.
+
