@@ -13,10 +13,13 @@ namespace TarangsBooks.DataAccess.Repository.IRepository
         {
             _db = db;
             Category = new CategoryRepository(_db);//Constructor to use DI and Inject in the repositories.
+            CoverType = new CoverTypeRepository(_db);
             SP_Call = new SP_Call(_db);
         }
 
         public ICategoryRepository Category { get; private set; }
+        public ICoverTypeRepository CoverType { get; private set; }
+
         public ISP_Call SP_Call { get; private set; }
 
         public void Dispose()

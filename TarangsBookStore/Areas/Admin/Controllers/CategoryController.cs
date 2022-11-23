@@ -28,7 +28,7 @@ namespace TarangsBookStore.Areas.Admin.Controllers
 
         public IActionResult Upsert(int? id) // action method for upsert
         {
-            Category category = new Category(); //using pujasBooks.Model
+            Category category = new Category(); 
             if (id == null)
             {
                 //this is for create

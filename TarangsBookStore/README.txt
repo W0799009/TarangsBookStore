@@ -488,3 +488,19 @@ Part 2.2.3 completed successfully.
 wheheeeeeeeeeeeeee:) :) :)
 Commit to git.
 End Time: 1:51PM
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-22 10:38PM
+Starting Part 2.3.1 Cover Type CRUD
+All Things worked successfully.
+Created the CoverType.cs file in TarangsDooks.Models project.
+Added the ID and Name Category in that class and added the using statement.
+Adding Migration.
+Migration done successfully.
+Updated Database successfully.
+Changed the ApplicationDbContext and added the Covertype line.
+Created CoverTypeRepository in Repository folder.
+Created ICoverTypeRepository in IRepositories.
+Changed the content in both files and save the changes.
+Added the CoverType in UnitOfWork amdIUnitOfWorlk.
