@@ -504,3 +504,8 @@ Created CoverTypeRepository in Repository folder.
 Created ICoverTypeRepository in IRepositories.
 Changed the content in both files and save the changes.
 Added the CoverType in UnitOfWork amdIUnitOfWorlk.
+
+Adde the CoverType in the nav bar.
+Added the new controller in the Controller folder and nemed it CoverType.
+made all changes in CoverType controller.cs file.
+ Created the razor page of index.
