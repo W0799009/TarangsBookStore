@@ -46,7 +46,7 @@ namespace TarangsBookStore
             {
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
-            }
+            }   
             else
             {
                 app.UseExceptionHandler("/Home/Error");

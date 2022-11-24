@@ -503,9 +503,27 @@ Changed the ApplicationDbContext and added the Covertype line.
 Created CoverTypeRepository in Repository folder.
 Created ICoverTypeRepository in IRepositories.
 Changed the content in both files and save the changes.
-Added the CoverType in UnitOfWork amdIUnitOfWorlk.
+Added the CoverType in UnitOfWork amd IUnitOfWorlk.
 
 Adde the CoverType in the nav bar.
 Added the new controller in the Controller folder and nemed it CoverType.
 made all changes in CoverType controller.cs file.
  Created the razor page of index.
+ End: 2022-11-23 2:14AM
+-------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-23 10:43PM
+
+Contineuing part 2.3.1 again.
+
+Adde the data of Categories into the Covertype database.
+I think it is because of the javascript.
+So I am changing the category.js with coverType.js file.
+Creating the js file in js folder and Adding the code of Category into it with modifications.
+Solved the error and got the empty database of coverType but when I am creating the CoverType I am not getting it .
+So I found that I didnt make the upsert so I am getting the problem.
+Created the Upsert.cshtml in the CoverType folder.
+Completed the Part of Creating CURD pages of CoverType.
+
+END: 2022-11-23 11:12PM
+-------------------------------------------------------------------------------------------------------------------------------------
