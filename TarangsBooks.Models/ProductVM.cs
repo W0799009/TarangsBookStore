@@ -13,5 +13,6 @@ namespace TarangsBooks.Models
         public IEnumerable<SelectListItem> CategoryList { get; set; }   // install package "Microsoft.AspNetCore.Mvc.Rendering"
 
         public IEnumerable<SelectListItem> CoverTypeList { get; set; }
+
     }
 }

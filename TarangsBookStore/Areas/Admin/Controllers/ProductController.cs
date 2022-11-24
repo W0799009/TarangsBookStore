@@ -57,7 +57,7 @@ namespace TarangsBookStore.Areas.Admin.Controllers
        *///old
       
 
-        /*
+        
         public IActionResult Upsert(int? id)        // get action mwthod for Upsert
         {
             ProductVM productVM = new ProductVM()
@@ -89,10 +89,10 @@ namespace TarangsBookStore.Areas.Admin.Controllers
             }
 
             return View(productVM);
-        }*/
+        }
         
 
-        /*
+        
          // use HTTP POST to define the post-action method
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -116,7 +116,7 @@ namespace TarangsBookStore.Areas.Admin.Controllers
 
             return View(product);
         }
-        */
+        
         // API calls here for Delete
         #region API CALLS
         [HttpGet]

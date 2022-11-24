@@ -582,5 +582,20 @@ copied the CoverType Upsert and Saved the file with some initial changes.
 Commit to git.
 
 End: 3:10AM
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-23 11:30AM 
+Continuing the Changes in the Upsert file.
+wrote the code in the Upsert file and saved it.
+Added the script tag and those code.
+Created the account on given link.
+Copied the ID and pasted at appropriate place.
+Changed the Model.ID into Model.Product.Id in Upsert.
+Run the project.
+Moving further.
+Creating new folder in wwwroot/images with the name Product.
+unComment the necessory code and Run the application.
+Commit to git.
+End: 1:17PM
 
 
