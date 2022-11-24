@@ -597,5 +597,15 @@ Creating new folder in wwwroot/images with the name Product.
 unComment the necessory code and Run the application.
 Commit to git.
 End: 1:17PM
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+2022-11-23 1:49PM
+I was not getting the exect same as shown in ppt of upseart.
+Then I found that you already provided the file in the assignment 2 so I copied it and pasted into the upsert form.
+Then I was getting the Category dropdown in covertype .
+So I chnaged the code yoy provided and got the exect same as shown in PPT.
+Still getting error in creating the Product.
+Getting this popup wrror when opening the Product page which says ...
+"DataTables warning: table id=tblData - Ajax error. For more information about this error, please see http://datatables.net/tn/7".
+Commit to git.
+End : 2:20PM
