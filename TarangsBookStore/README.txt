@@ -573,7 +573,14 @@ Commit to git.
 
 Part 3.2 Completed successfully.
 End: 2022-11-23 2:30AM 
+------------------------------------------------------------------------------------------------------------------------------
 
+2022-11-23 2:59AM 
 
+Created Upsert in the Product folder with partial view.
+copied the CoverType Upsert and Saved the file with some initial changes.
+Commit to git.
+
+End: 3:10AM
 
 
