@@ -546,4 +546,34 @@ Cleared the errors successfully.
 Build the project.
 Push to Git.
 Part 2.3.2 Completd Successfully.
+First PPT Completd.
+
+END: 2022-11-23 12:23AM 
+
+----------------------------------------------------------------------------------------------------------------------------
+
+2022-11-23 12:25AM 
+
+Starting Part 3.2 Build the project.
+Added the ProductController to the controller folder.
+Modified that file and saved.
+Added the package named Microsoft.AspNetCore.Mvc.Rendering in all projects.
+Created the new file and named it ProductVM in the Models project.
+Updated the file as said and added the using statement. 
+Comment the upsert code for now after modifying it.
+Modifying the API.
+created new folder in the view folder and named it Product.
+Added new razor page in the view model.
+Copied the category view razor page and changed the content.
+created new Product.js file and save the changes in it.
+Changed the index.cshtml chnages by adding new columns of other product.
+Changing the _Layout.cshtml to add a new link of Product.
+Run the project. Got an exception, Continue the run.
+Commit to git.
+
+Part 3.2 Completed successfully.
+End: 2022-11-23 2:30AM 
+
+
+
 

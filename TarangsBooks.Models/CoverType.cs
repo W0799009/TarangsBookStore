@@ -7,6 +7,7 @@ namespace TarangsBooks.Models
 {
     public class CoverType
     {
+        [Key]
         public int Id { get; set; }
 
         [Display(Name = "CoverType Name")]
