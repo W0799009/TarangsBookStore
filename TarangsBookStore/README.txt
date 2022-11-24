@@ -527,3 +527,23 @@ Completed the Part of Creating CURD pages of CoverType.
 
 END: 2022-11-23 11:12PM
 -------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-23 11:13PM 
+Starting 3.2 Product CURD.
+Add a new class in .Models Project.
+Adde the given code into it and saved the Product.cs file.
+Added the Migration which created the file in migration folder named 20221124043408_AddProductToDb.cs
+Update Databse.
+Checked the product in table of SQL server object Explorer.
+Added the required filed in the product.cs file
+Added the migration which created the file in migration folder with name 20221124044251_addValidationToProduct.cs
+Update the database.
+Created the ProductRepository.cs file in Repository folder.
+Created the IProductRepository.cs file in IRepository folder.
+Updated the ProductRepository.cs file withe the given code in ppt.
+Added the product in the UnitOfWork and IUnitOfWork.
+Cleared the errors successfully.
+Build the project.
+Push to Git.
+Part 2.3.2 Completd Successfully.
+

@@ -18,5 +18,7 @@ namespace TarangsBookStore.DataAccess.Data
 
         public DbSet<CoverType> CoverTypes { get; set; }
 
+        public DbSet<Product> Products { get; set; } //Adding product to the db.
+
     }
 }
