@@ -7,7 +7,7 @@ namespace TarangsBooks.DataAccess.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Product",
+                name: "Products",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -23,15 +23,15 @@ namespace TarangsBooks.DataAccess.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Product", x => x.Id);
+                    table.PrimaryKey("PK_Products", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Product_Categories_CategoryId",
+                        name: "FK_Products_Categories_CategoryId",
                         column: x => x.CategoryId,
                         principalTable: "Categories",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Product_CoverTypes_CoverTypeId",
+                        name: "FK_Products_CoverTypes_CoverTypeId",
                         column: x => x.CoverTypeId,
                         principalTable: "CoverTypes",
                         principalColumn: "Id",
@@ -39,20 +39,20 @@ namespace TarangsBooks.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Product_CategoryId",
-                table: "Product",
+                name: "IX_Products_CategoryId",
+                table: "Products",
                 column: "CategoryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Product_CoverTypeId",
-                table: "Product",
+                name: "IX_Products_CoverTypeId",
+                table: "Products",
                 column: "CoverTypeId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Product");
+                name: "Products");
         }
     }
 }

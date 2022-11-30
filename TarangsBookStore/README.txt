@@ -609,3 +609,27 @@ Getting this popup wrror when opening the Product page which says ...
 "DataTables warning: table id=tblData - Ajax error. For more information about this error, please see http://datatables.net/tn/7".
 Commit to git.
 End : 2:20PM
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2022-11-30 11:30PM
+
+clone the repository.
+Starting Part 4
+I am getting the exception while clicking the product page.
+Trying to solve those error.
+Error solved got the whole product page as expected.
+
+It was becuase the somewher the name of my table Product was going wrong. 
+But not getting the file So I changed the Table name in Migration files and on SQL server manually .
+Updated the Databse successfully.
+As a result resolved th error.
+openned the give example of bookstore in blackboard and checked files of products.
+Create Edit and Delete works perfectely.
+Already completed part 2.3.3 so just need to solve that exception nothing else required 
+Completed 2.4 successfully.
+Commit to git.
+End: 2:33PM
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+

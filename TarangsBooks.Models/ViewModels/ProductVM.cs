@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace TarangsBooks.Models
+namespace TarangsBooks.Models.ViewModels
 {
     public class ProductVM
     {

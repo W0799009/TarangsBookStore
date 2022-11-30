@@ -292,7 +292,7 @@ namespace TarangsBooks.DataAccess.Migrations
 
                     b.HasIndex("CoverTypeId");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

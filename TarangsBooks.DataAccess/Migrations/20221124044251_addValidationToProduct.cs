@@ -8,7 +8,7 @@ namespace TarangsBooks.DataAccess.Migrations
         {
             migrationBuilder.AlterColumn<string>(
                 name: "Title",
-                table: "Product",
+                table: "Products",
                 nullable: false,
                 oldClrType: typeof(string),
                 oldType: "nvarchar(max)",
@@ -16,7 +16,7 @@ namespace TarangsBooks.DataAccess.Migrations
 
             migrationBuilder.AlterColumn<string>(
                 name: "ISBN",
-                table: "Product",
+                table: "Products",
                 nullable: false,
                 oldClrType: typeof(string),
                 oldType: "nvarchar(max)",
@@ -24,7 +24,7 @@ namespace TarangsBooks.DataAccess.Migrations
 
             migrationBuilder.AlterColumn<string>(
                 name: "Author",
-                table: "Product",
+                table: "Products",
                 nullable: false,
                 oldClrType: typeof(string),
                 oldType: "nvarchar(max)",
@@ -35,21 +35,21 @@ namespace TarangsBooks.DataAccess.Migrations
         {
             migrationBuilder.AlterColumn<string>(
                 name: "Title",
-                table: "Product",
+                table: "Products",
                 type: "nvarchar(max)",
                 nullable: true,
                 oldClrType: typeof(string));
 
             migrationBuilder.AlterColumn<string>(
                 name: "ISBN",
-                table: "Product",
+                table: "Products",
                 type: "nvarchar(max)",
                 nullable: true,
                 oldClrType: typeof(string));
 
             migrationBuilder.AlterColumn<string>(
                 name: "Author",
-                table: "Product",
+                table: "Products",
                 type: "nvarchar(max)",
                 nullable: true,
                 oldClrType: typeof(string));
