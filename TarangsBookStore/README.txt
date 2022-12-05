@@ -632,4 +632,17 @@ Commit to git.
 End: 2:33PM
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
+2022-12-05 12:30AM
 
+Added the migration of the three field addet with name 20221205054953_AddPriceToProductDb
+Update Database.
+Chnaged the given files to show the Producct on the home page.
+Product.js
+product.cs
+Areas > Admin > Customer > View >Controller> Homecontroller
+Area >admin> View >product>Upsert
+Area>Customer > View > Home >index.cshtml.
+Update Database
+Run the application
+Got the expected result.
+Complet time: 1:08AM
