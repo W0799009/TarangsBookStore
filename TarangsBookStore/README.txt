@@ -646,3 +646,10 @@ Update Database
 Run the application
 Got the expected result.
 Complet time: 1:08AM
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2022-12-09 3:41AM
+I didnt commented the ssl port hence doing it now.
+Commit all.
+Starting Azure.
